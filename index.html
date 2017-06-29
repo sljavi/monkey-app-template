@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Monkey App Template</title>
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+  <div id="welcome">
+    <div class="page">
+      <div class="container">
+        <img class="logo" src="/images/gl.svg"/>
+        <div>
+          <h1>¡HOLA!</h1>
+          <p>
+            Saquemonos una foto<br>
+            y veamos cuál es tu estado de ánimo
+          </p>
+        </div>
+        <button class="button primary">Continuar</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="take-selfie">
+    <div class="page">
+      <div class="container">
+        <button class="button primary">
+          <img src="/images/camera.png" />
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div id="selfie-result">
+    <div class="page">
+      <div class="container">
+        <div class="buttons">
+          <button class="button secundary" id="takeAnother">
+            Tomar otra
+          </button>
+          <button class="button primary" id="getResult">
+            Ver Ánimo
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="share">
+    <div class="page">
+      <div class="container">
+        <img class="logo" src="/images/gl.svg"/>
+        <div>
+          <h1>¡COMPARTIDO!</h1>
+          <p>
+            Esa selfie sí que se puede ver
+          </p>
+        </div>
+        <div class="buttons">
+          <button class="button secundary" id="takeAnotherFromSharePage">
+            Toma otra
+          </button>
+          <button class="button primary">
+            Visita GL
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="/js/jquery-3.1.1.min.js" async></script>
+  <script type="text/javascript" src="/js/script.js" async></script>
+</body>
+</html>

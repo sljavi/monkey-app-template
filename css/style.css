@@ -1,0 +1,199 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+body {
+    background-color: #414141;
+}
+.page {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  justify-content: center;
+  color: #bbb;
+  font-family: sans-serif;
+}
+
+.page .container {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  width: 100vw;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+}
+
+.button {
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.button.primary {
+  background: #F27037;
+}
+
+.button.secundary {
+  background: #929292;
+}
+
+#welcome .container {
+  background: url(/images/hand.png);
+  background-repeat: no-repeat;
+  background-position-y: 24vh;
+  background-position-x: 69%;
+}
+
+#welcome .logo {
+  width: 7em;
+  margin: 1em;
+}
+
+#welcome h1 {
+  text-align: center;
+  font-size: 2em;
+  color: white;
+  margin: 2em 0;
+}
+
+#welcome p {
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 1.4em;
+  margin-bottom: 7em;
+}
+
+#welcome .button {
+  width: 100%;
+  padding: 1.2em;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  margin-bottom: 1em;
+}
+
+#take-selfie {
+  display: none;
+}
+
+#take-selfie .container {
+  background: url(/images/bender.gif);
+  background-size: cover;
+  justify-content: flex-end;
+}
+
+#take-selfie .button {
+  border-radius: 100%;
+  box-shadow: 0 0 5px 2px #000;
+  margin-bottom: 2em;
+}
+
+#take-selfie .button img {
+  width: 5em;
+}
+
+#selfie-result {
+  display: none;
+}
+
+#selfie-result .container {
+  background: url(/images/bender.png);
+  background-size: cover;
+  justify-content: flex-end;
+}
+
+#selfie-result .button {
+  padding: 1.2em;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  margin-bottom: 1em;
+  width: 48%;
+}
+
+#selfie-result .buttons {
+  width: 98%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#share {
+  display: none;
+}
+
+#share .container {
+  background: url(/images/share.png);
+  background-repeat: no-repeat;
+  background-position-y: 13vh;
+  background-position-x: 35%;
+  background-size: 77%;
+}
+
+#share .logo {
+  width: 7em;
+  margin: 1em;
+}
+
+#share h1 {
+  text-align: center;
+  font-size: 2em;
+  color: white;
+  margin: 2em 0 1.5em 0;
+}
+
+#share p {
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 1.4em;
+  margin-bottom: 7em;
+}
+
+#share .buttons {
+  width: 100%;
+}
+
+#share .button {
+  width: 100%;
+  padding: 1.2em;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  margin-bottom: 1em;
+}
